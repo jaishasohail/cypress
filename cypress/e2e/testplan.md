@@ -43,8 +43,8 @@ This test plan outlines the approach for end-to-end (E2E) testing of the SauceDe
 
 ### 8. Team Roles
 
-- Test Author: [Your Name]
-- Reviewer: [Instructor/Peer]
+- Test Author: Jaisha Sohail
+- Reviewer: Ms. Yella Mehroze
 
 ### 9. Schedule
 
