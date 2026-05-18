@@ -1,0 +1,15 @@
+{
+  "name": "cypress-e2e-testing",
+  "version": "1.0.0",
+  "description": "Cypress E2E tests for SauceDemo web app (CSE482 Terminal Lab)",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "author": "[Your Name]",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
