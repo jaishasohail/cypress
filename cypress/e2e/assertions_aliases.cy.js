@@ -12,7 +12,7 @@ describe('Assertions & Aliases Practice', () => {
   });
 
   it('Assertion 2: Login button has correct text', () => {
-    cy.get('[data-test="login-button"]').should('have.text', 'Login');
+    cy.get('[data-test="login-button"]').should('have.attr', 'value', 'Login');
   });
 
   it('Assertion 3: Username input has correct attribute', () => {
@@ -25,6 +25,6 @@ describe('Assertions & Aliases Practice', () => {
 
   it('Alias Practice: Use alias for login button', () => {
     cy.get('[data-test="login-button"]').as('loginBtn');
-    cy.get('@loginBtn').should('be.visible').and('have.text', 'Login');
+    cy.get('@loginBtn').should('be.visible').and('have.attr', 'value', 'Login');
   });
 });
